@@ -10,7 +10,7 @@ public class RNG
 
     public static void Roll()
     {
-        CurrentRoll = UnityEngine.Random.Range(0, 4);
+        CurrentRoll = UnityEngine.Random.Range(0, 4 + 1);
 
         if (OnRolled != null)
         {

@@ -175,24 +175,6 @@ public class GameController : MonoBehaviour
         }
 
         State = EndTile.IsRollAgain ? nextStateRollAgain : nextStateMove;
-
-
-        //if (CanMove(marker, RNG.CurrentRoll))
-        //{
-        //    Debug.Log("Can move");
-        //    StartMove(marker, EndTile.transform.position);
-
-        //    //TODO: Wait for the Tile to inform us that the animation is complete
-
-        //    MoveComplete(marker);
-        //    // TODO: Check if we ended up on a "roll-again" tile
-        //}
-        //else
-        //{
-        //    Debug.Log("Can not move");
-        //}
-
-        //State = nextState;
     }
 
 
